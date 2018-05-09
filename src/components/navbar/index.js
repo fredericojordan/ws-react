@@ -1,11 +1,15 @@
 import React from 'react'
 
+import Container from '../container'
+
+import './styles.css'
+
 
 const Navbar = props => (
     <nav className="navbar">
-        <span className="logo">
+        <Container>
             Choque de Cultura
-        </span>
+        </Container>
     </nav>
 )
 
